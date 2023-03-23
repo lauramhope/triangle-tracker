@@ -6,7 +6,21 @@
   <title>Triangle Tracker</title>
 </head>
 <body>
-  <h1></h1>
+  <h1>Type of triangle!</h1>
+  <p>Enter the lengths of your triangle below to determine if your triangle is equilateral, isosceles, or scalene!</p><br>
+  <img src="abc-triangle.jpeg" alt="a picture of a triangle">
+  <form id="triangleGenerator">
+    <label for="sideA">Side A</label>
+    <input id="sideA" type="text" name="sideA">
+    <label for="sideB">Side B</label>
+    <input id="sideB" type="text" name="sideB">
+    <label for="sideC">Side C</label>
+    <input id="sideC" type="text" name="sideC">
+    <button type="submit">Generate!</button>
+  </form>
+
+  <h2>This type of triangle is:</h2>
+  <p id="answer"></p>
   
 </body>
 </html>
